@@ -13,3 +13,67 @@
     overflow: hidden;
     background: linear-gradient(#87ceeb,#e0f6ff);-
 }
+
+.pipe {
+  position: absolute;
+  bottom: 0;
+  width: 80px;
+  animation: pipe-animation 1.5s infinite linear;
+}
+
+.mario {
+  width: 150ṕx;
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+
+
+
+.jump {
+  animation: jump 500ms ease-out;
+}
+
+.nuvem {
+    position: absolute;
+    width: 550px;
+   animation: clouds-animation 20s infinite linear;
+}
+
+button {
+    background: green;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    border: 1rem;
+    position: absolute;
+    right: 50vw;
+    top: 50vh;
+    cursor: pointer;
+    z-index: 1;
+}
+button:hover {
+    border: 2px solid green;
+    background: none;
+    color: green
+}
+
+button.start {
+    display: block;
+}
+
+button.start {
+    display: block;
+}
+
+.game-over {
+    width: 100%;
+    heitght: 100vh;
+    background: rgba (0, 0, 0, 0.322);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: 
