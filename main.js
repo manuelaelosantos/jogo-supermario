@@ -1,5 +1,6 @@
 const mario = document.querySelector(".mario");
-const pipe = document.querySelector(".pipe")
+const pipe = document.querySelector(".pipe");
+const nuvem = document.querySelector(".nuvem");
 const startButton = document.querySeeetor(".start");
 const gameOverScreen = document.querySelector(".game=over");
 
@@ -10,7 +11,7 @@ let gameStarted = false;
 
 const startGame => {
 gameStarded = true;
-
+audioStart.play();
 pipe.style.animation = "pipe-animation 1.5s infinite linear";
 
     startButton.style.display = "none";
@@ -45,7 +46,11 @@ const jump = () => {
         mario.src = "./img/game-over.png";
         mario.style.width = "75px";
         mario.style.marginLeft = "50px";
+        audioStart.pause();
 
+        gameOverSound.play();
+
+    
      clearInterval(loop);
       
     },10);
