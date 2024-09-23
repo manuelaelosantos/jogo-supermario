@@ -57,7 +57,7 @@ const jump = () => {
     pipe.style.left = '';
   }
 },10);
-
+}
 document.addEventListener("keydown", jump);
 
 const restartGame = () => {

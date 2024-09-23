@@ -16,7 +16,7 @@
 
 .pipe, .mario, .nuvem {
     opacity: 0;
-    trasition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .pipe {
@@ -83,7 +83,7 @@ button.start {
 
 .game-over {
     width: 100%;
-    heitght: 100vh;
+    height: 100vh;
     background: rgba (0, 0, 0, 0.2);
     display: none;
     align-items: center;
@@ -142,4 +142,4 @@ button.start {
         right: 100%;
     }
 }
-}
+
